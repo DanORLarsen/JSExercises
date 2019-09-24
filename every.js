@@ -7,6 +7,7 @@ function every(arrayTest, test) {
     });
     //Would always break loop if false and then return true, if i just said return false in forEach.
     //Because it would still execute the rest, ( return true; after it was ordered to return false;)
+    //Which indicates that return only breaks the current bracket... 
     if(typeof trueOrFalse === 'undefined')
     {return true;}
     return trueOrFalse;
