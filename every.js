@@ -10,7 +10,7 @@ function every(arrayTest, test) {
     if(typeof trueOrFalse === 'undefined')
     {return true;}
     return trueOrFalse;
-  }
+  } 
   let d = [1,2,3]
   console.log(d[0]);
   
